@@ -1,0 +1,1 @@
+I've created a data driven framework for the IRCTC website. It has end to end test cases for booking a train journey, a flight journey, or booking hotels and travel packages etc. The test scripts are written using Selenium WebDriver with Java. Apart from that I've used TestNG, Maven and Apache POI as well.
