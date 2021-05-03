@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="30" name="Suite"
+	configfailurepolicy="continue">
+
+	<test name="Test" parallel="methods">
+		<classes>
+			<class name="TestCases.packageBooking">
+			</class>
+		</classes>
+	</test>
+
+	<test name="Test1" parallel="methods">
+		<classes>
+			<class name="TestCases.generalTicket"></class>
+		</classes>
+	</test>
+
+	<test name="Test2" parallel="methods">
+		<classes>
+			<class name="TestCases.hotelBooking">
+			</class>
+		</classes>
+	</test>
+
+	<test name="Test3" parallel="methods">
+		<classes>
+			<class name="TestCases.tatkalTicket">
+			</class>
+		</classes>
+	</test>
+
+	<test name="Test4" parallel="methods">
+		<classes>
+			<class name="TestCases.maharajaTrain"></class>
+		</classes>
+	</test>
+	
+	<test name="Test5" parallel="methods">
+		<classes>
+			<class name="TestCases.loginValidTC"> </class>
+		</classes>
+	</test>
+	
+	<test name="Test6" parallel="methods">
+		<classes>
+			<class name="TestCases.loginInvalidTC"></class>
+		</classes>
+	</test>
+	
+	<test name="Test7" parallel="methods">
+		<classes>
+			<class name="TestCases.flightOneway"></class>
+		</classes>
+	</test>
+	
+	<test name="Test8" parallel="methods">
+		<classes>
+			<class name="TestCases.flightRoundtrip"></class>
+		</classes>
+	</test>
+	
+	<test name="Test9" parallel="methods">
+		<classes>
+			<class name="TestCases.trainScheduleInvalid"></class>
+		</classes>
+	</test>
+	
+	<test name="Test10" parallel="methods">
+		<classes>
+			<class name="TestCases.trainScheduleValid"></class>
+		</classes>
+	</test>
+	
+	<test name="Test11" parallel="methods">
+		<classes>
+			<class name="TestCases.trainTrackInvalid"></class>
+		</classes>
+	</test>
+	
+	<test name="Test12" parallel="methods">
+		<classes>
+			<class name="TestCases.trainTrackValid"></class>
+		</classes>
+	</test>
+	
+	<test name="Test13" parallel="methods">
+		<classes>
+			<class name="TestCases.bookWithoutLogin"></class>
+		</classes>
+	</test>
+	
+
+</suite> <!-- Suite -->

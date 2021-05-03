@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite configfailurepolicy="continue" thread-count="30" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="30" parallel="methods" name="Test(failed)">
+    <classes>
+      <class name="TestCases.packageBooking">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initialize"/>
+          <include name="packageBook"/>
+        </methods>
+      </class> <!-- TestCases.packageBooking -->
+    </classes>
+  </test> <!-- Test(failed) -->
+  <test thread-count="30" parallel="methods" name="Test1(failed)">
+    <classes>
+      <class name="TestCases.generalTicket">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initialize"/>
+          <include name="bookTicket"/>
+        </methods>
+      </class> <!-- TestCases.generalTicket -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+  <test thread-count="30" parallel="methods" name="Test2(failed)">
+    <classes>
+      <class name="TestCases.hotelBooking">
+        <methods>
+          <include name="hotelBook"/>
+          <include name="tearDown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- TestCases.hotelBooking -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+  <test thread-count="30" parallel="methods" name="Test3(failed)">
+    <classes>
+      <class name="TestCases.tatkalTicket">
+        <methods>
+          <include name="bookTicket"/>
+          <include name="initialize"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestCases.tatkalTicket -->
+    </classes>
+  </test> <!-- Test3(failed) -->
+  <test thread-count="30" parallel="methods" name="Test5(failed)">
+    <classes>
+      <class name="TestCases.loginValidTC">
+        <methods>
+          <include name="initialize"/>
+          <include name="tearDown"/>
+          <include name="basePageNavigation"/>
+        </methods>
+      </class> <!-- TestCases.loginValidTC -->
+    </classes>
+  </test> <!-- Test5(failed) -->
+  <test thread-count="30" parallel="methods" name="Test7(failed)">
+    <classes>
+      <class name="TestCases.flightOneway">
+        <methods>
+          <include name="FlightOneway"/>
+          <include name="initialize"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestCases.flightOneway -->
+    </classes>
+  </test> <!-- Test7(failed) -->
+  <test thread-count="30" parallel="methods" name="Test10(failed)">
+    <classes>
+      <class name="TestCases.trainScheduleValid">
+        <methods>
+          <include name="trainSchedule"/>
+          <include name="tearDown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- TestCases.trainScheduleValid -->
+    </classes>
+  </test> <!-- Test10(failed) -->
+  <test thread-count="30" parallel="methods" name="Test11(failed)">
+    <classes>
+      <class name="TestCases.trainTrackInvalid">
+        <methods>
+          <include name="tearDown"/>
+          <include name="trainTracking"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- TestCases.trainTrackInvalid -->
+    </classes>
+  </test> <!-- Test11(failed) -->
+</suite> <!-- Failed suite [Suite] -->
